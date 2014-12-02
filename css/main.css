@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Chango);
+
+body {
+  padding-top:42px;
+  background:url(http://scotch.io/wp-content/uploads/2014/11/broken-plane.jpg);
+  font-size:100px;  
+
+  /* make our image 100% width */
+  background-size:cover; 
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family:'Chango';
+ 
+
+  /* set the background image */
+  background:url(http://scotch.io/wp-content/uploads/2014/11/mountain1.jpg);
+  background-position:bottom;
+  background-size:cover;
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* set the transition speed */
+  -webkit-transition:8s ease all;
+}
+
+/* handle what happens on hover */
+h1:hover {
+  background-position:top;
+}
